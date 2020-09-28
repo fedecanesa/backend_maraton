@@ -20,6 +20,8 @@ function getAllCompras()
     })
     .then(function(res)
     {
+        tabla_contenido.innerHTML = "";
+
         res.compras.forEach(function(compra)
         {
             let nuevaTarjeta = `<tr>
@@ -62,9 +64,9 @@ function agregarCompra(event)
         method:'POST',
         body: JSON.stringify(compra_a_guardar),
         headers:{'Content-Type':'application/json'}
-    }).then(function(response)
+    }).then(function(res)
     {
-        return response.json()
+        return res.json()
     })
     .then(function(mensaje)
     {
