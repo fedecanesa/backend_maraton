@@ -3,4 +3,3 @@ Para finalizar:
 
 Respuesta:
 Se me ocurre que podria ser un buen ejercicio en el cual tengas que, desde el login de una pagina, tengamos que tener que crear un usuario y tener que validar el ingreso. Si es un usuario existente, enviarlo a la pagina principal y sino tiene que crearse el usuario mediante un formulario.
-1. Crear un html que contenga usuario y contraseña.

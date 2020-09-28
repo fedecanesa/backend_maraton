@@ -16,6 +16,7 @@ const { Router } = require(`express`);
 
 // Creo la APP--------------------------------------------------------------------------------------------------
 const router = Router();
+const compras = require(`../compras.json`)
 
 // Base de datos
 let compras = 

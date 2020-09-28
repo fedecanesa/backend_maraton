@@ -27,8 +27,8 @@ app.use(cors());
 //app.use(express.static(path.join(__dirname, `../public`))); //Lo que se envia al navegador
 
 //Rutas - Se crean los archivos init.js y compras.js y se importan----------------------------------------------
-app.use(require("./routes/inicial"));
-app.use(require("./routes/compras"));
+app.use(require("./api/inicial"));
+app.use(require("./api/compras"));
 
 
 //Puerto

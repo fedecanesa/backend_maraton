@@ -2,7 +2,7 @@ Manual de uso
 
 Carpetas
 * src: Contiene todo el proyecto.
-    * routes: Contine las rutas del servidor
+    * api: Contine las rutas del servidor
         * inicial.js : ruta inicial (/);
         * compras.js : rutas /compras
     * public: Contiene archvivos css, html
