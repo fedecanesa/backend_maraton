@@ -1,0 +1,17 @@
+Manual de uso
+
+Carpetas
+* src: Contiene todo el proyecto.
+    * routes: Contine las rutas del servidor
+        * inicial.js : ruta inicial (/);
+        * compras.js : rutas /compras
+    * public: Contiene archvivos css, html
+        * app.js: Donde escribo la aplicación
+
+Archivos
+* index.js : Arraca la aplicación
+* compras.json : simula la base de datos donde contiene todas las compras.
+
+COLECCION POSTMAN: 
+https://www.getpostman.com/collections/1fcba44e489330377b47
+
